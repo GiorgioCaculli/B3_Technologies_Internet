@@ -1,0 +1,19 @@
+<p>formulaires-exercice1 works!</p>
+
+<form #form="ngForm" (ngSubmit)="sendData()">
+  <input #nomElement="ngModel" [(ngModel)]="user.username" minlength="5" name="nom" placeholder="Nom" required
+         type="text">
+
+  <div *ngIf="nomElement.invalid && nomElement.touched">Le champ "nom" est invalid!</div>
+
+  <input #prenomElement="ngModel" [(ngModel)]="user.password" minlength="5" name="prenom" placeholder="Prenom"
+         required type="text">
+
+  <div *ngIf="prenomElement.invalid && prenomElement.touched">Le champ "prenom" est invalid!</div>
+
+  <div *ngIf="nomElement.valid && prenomElement.valid">
+    Nom: {{ user.username }} - Prenom: {{ user.password }}
+  </div>
+
+  <input [disabled]="form.invalid" type="submit">
+</form>

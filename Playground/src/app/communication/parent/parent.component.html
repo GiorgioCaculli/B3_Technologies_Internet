@@ -1,0 +1,5 @@
+<app-child-output (numbersChange)="saveNumbers($event)"></app-child-output>
+<app-child-input [nums]="nums"></app-child-input>
+
+<h2>La valeur de num vaut: {{ num }}</h2>
+<app-sizer [(num)]="num"></app-sizer>

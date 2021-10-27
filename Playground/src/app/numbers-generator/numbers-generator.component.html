@@ -1,0 +1,7 @@
+<button (click)="addRandomNumbers(times)">Random this!</button>
+
+<input [(ngModel)]="times" type="text">
+
+<ul>
+  <li *ngFor="let num of nums">{{num}}</li>
+</ul>

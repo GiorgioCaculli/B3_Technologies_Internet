@@ -1,0 +1,31 @@
+<div *ngIf="todos.length === 0">
+  <b>Merci de creer un todo pour voir le tableau!</b>
+</div>
+<div *ngIf="todos.length > 0">
+  <table>
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Titre</th>
+      <th>Is done?</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let todo of todos; let i = index;">
+      <td>
+        {{ todo.id }}
+      </td>
+      <td>
+        {{ todo.title }}
+      </td>
+      <td>
+        <input type="checkbox" [(ngModel)]="todo.isDone" (ngModelChange)="emitTodoChanged(todo)">
+      </td>
+      <td>
+        <button (click)="emitTodoDeletedByIndex(i)">X</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,17 @@
+button {
+  background: linear-gradient(45deg, hsl(215, 100%, 65%), hsl(215, 100%, 65%));
+  border: unset;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.5em 0.8em;
+  box-shadow: 0 0 5px hsl(215, 100%, 65%);
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 5px hsl(255, 100%, 65%);
+}
+
+button:active {
+}

@@ -1,0 +1,76 @@
+<p>formulaires-exercice3 works!</p>
+
+<form (dblclick)="autocomplete()" (ngSubmit)="sendData()" [formGroup]="form">
+  <div formGroupName="main">
+    <h2>Formulaire general</h2>
+    <div>
+      <label>
+        Nickname:
+        <input formControlName="username" placeholder="Nickname" type="text">
+      </label>
+    </div>
+
+    <div>
+      <label>
+        Password:
+        <input formControlName="password" placeholder="Password" type="password">
+      </label>
+    </div>
+
+    <div>
+      <label>
+        Email:
+        <input formControlName="email" placeholder="Email" type="email">
+      </label>
+    </div>
+
+    <div>
+      <label>
+        Birthdate:
+        <input formControlName="date" placeholder="Birthdate" type="text">
+      </label>
+    </div>
+
+  </div>
+
+  <div formGroupName="other">
+    <h2>Autres Informations:</h2>
+    <div>
+      <label>
+        Continue Course:
+        <input formControlName="continueCourse" placeholder="Continue Course" type="checkbox">
+      </label>
+    </div>
+
+    <div>
+      <label>
+        From school:
+        <input formControlName="angularKnowledge" placeholder="Angular Knowledge" type="radio" value="From school">
+      </label>
+      <label>
+        Autodidact:
+        <input formControlName="angularKnowledge" placeholder="Angular Knowledge" type="radio" value="Autodidact">
+      </label>
+      <label>
+        Both:
+        <input formControlName="angularKnowledge" placeholder="Angular Knowledge" type="radio" value="Both">
+      </label>
+    </div>
+
+    <div>
+      <label>
+        Rate TI:
+        <select formControlName="ratingTI">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <input (click)="reset()" type="button" value="Reset">
+  <input [disabled]="form.invalid" type="submit">
+</form>

@@ -1,0 +1,17 @@
+<p>formulaires-exercice2 works!</p>
+
+<form (ngSubmit)="sendData()" [formGroup]="form">
+  <input formControlName="nom" placeholder="Nom" type="text">
+
+  <div *ngIf="control.username.invalid && control.username.touched">Le champ "nom" est invalid!</div>
+
+  <input formControlName="prenom" placeholder="Prenom" type="text">
+
+  <div *ngIf="control.password.invalid && control.password.touched">Le champ "prenom" est invalid!</div>
+
+  <div *ngIf="control.username.valid && control.password.valid">
+    Nom: {{ control.username.value }} - Prenom: {{ control.password.value }}
+  </div>
+
+  <input [disabled]="form.invalid" type="submit">
+</form>

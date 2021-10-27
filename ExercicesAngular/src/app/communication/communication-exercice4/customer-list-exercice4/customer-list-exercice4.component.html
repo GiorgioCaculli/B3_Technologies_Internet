@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let customer of customers; let i = index;">
+    {{ customer.firstName }} {{ customer.lastName }}
+    <button (click)="deleteCustomer( i )">X</button>
+  </li>
+</ul>

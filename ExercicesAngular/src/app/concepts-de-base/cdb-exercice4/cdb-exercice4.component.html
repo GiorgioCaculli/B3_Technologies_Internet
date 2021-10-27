@@ -1,0 +1,9 @@
+<p>cdb-exercice4 works!</p>
+
+<input (change)="determineTypeOfValue()" [(ngModel)]="value" type="text">
+
+<div [ngSwitch]="determineTypeOfValue()">
+  <p *ngSwitchCase="TYPES.EVEN">Pair</p>
+  <p *ngSwitchCase="TYPES.ODD">Impair</p>
+  <p *ngSwitchCase="TYPES.NaN">Ce n'est pas une valeur numerique</p>
+</div>

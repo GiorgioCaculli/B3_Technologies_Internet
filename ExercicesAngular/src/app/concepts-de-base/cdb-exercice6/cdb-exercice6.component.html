@@ -1,0 +1,11 @@
+<p>cdb-exercice6 works!</p>
+
+<button (click)="generate()">Generate</button>
+
+<input [(ngModel)]="numberToDelete" type="number">
+
+<button (click)="delete(numberToDelete)">Delete {{ numberToDelete }}!</button>
+
+<div>
+  <span *ngFor="let num of numbers"> {{ num }} </span>
+</div>

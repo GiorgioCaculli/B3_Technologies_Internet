@@ -1,0 +1,14 @@
+<p>forms works!</p>
+
+<form #form="ngForm" (ngSubmit)="sendData()">
+  <input #bestCourseElement="ngModel" [(ngModel)]="values.bestCourse" minlength="5" name="bestCourse"
+         placeholder="best course..." required type="text">
+
+  <div *ngIf="bestCourseElement.invalid && bestCourseElement.touched">Le champ "bestCourse" est incorrect</div>
+
+  <input #ageElement="ngModel" [(ngModel)]="values.age" min="0" name="age" placeholder="age" required type="number">
+
+  <div *ngIf="ageElement.invalid && ageElement.touched">Le champ "age" est incorrect</div>
+
+  <input [disabled]="form.invalid" type="submit">
+</form>

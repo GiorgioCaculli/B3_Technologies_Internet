@@ -1,0 +1,7 @@
+<form [formGroup]="form" (ngSubmit)="emitTodoCreation()">
+  <label>
+    Titre du todo:
+    <input formControlName="title" type="text" placeholder="Titre">
+  </label>
+  <input type="submit" [disabled]="form.invalid">
+</form>

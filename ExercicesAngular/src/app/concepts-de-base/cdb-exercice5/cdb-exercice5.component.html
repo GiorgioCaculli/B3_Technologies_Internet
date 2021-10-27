@@ -1,0 +1,20 @@
+<p>cdb-exercice5 works!</p>
+
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Is Powerful?</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let computer of computers; let even = even; let odd = odd;" [ngClass]="{'even': even, 'odd': odd}">
+    <td>{{ computer.name }}</td>
+    <td>{{ computer.price }}</td>
+    <td>
+      <input [checked]="computer.isPowerful" disabled type="checkbox">
+    </td>
+  </tr>
+  </tbody>
+</table>

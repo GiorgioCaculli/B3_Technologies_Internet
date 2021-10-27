@@ -1,0 +1,2 @@
+<app-todo-form (todoCreated)="sendTodo($event)"></app-todo-form>
+<app-todo-list [todos]="todos" (todoDeleted)="deleteTodo($event)" (todoChanged)="updateTodo($event)"></app-todo-list>
