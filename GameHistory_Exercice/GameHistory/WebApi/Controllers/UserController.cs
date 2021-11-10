@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Domain;
 using Infrastructure.SqlServer.Repositories.User;
 using Microsoft.AspNetCore.Mvc;
@@ -44,10 +45,18 @@ namespace WebApi.Controllers
         public ActionResult<OutputDtoVideoGameReport> GetHistory(int id)
         {
             // TODO: may throw an exception if user does not exist
-            return _useCaseGenerateVideoGameReport.Execute(new InputDtoGenerateVideoGameReport
+            try
             {
-                UserId = id
-            });
+                return _useCaseGenerateVideoGameReport.Execute(new InputDtoGenerateVideoGameReport
+                {
+                    UserId = id
+                });
+            }
+            catch (KeyNotFoundException e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
         // TODO: add appropriate ProducesResponseType
