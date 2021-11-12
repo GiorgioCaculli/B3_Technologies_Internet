@@ -10,3 +10,15 @@
 /home/gzc/Projects/Playground/Playground-Cs/Todo/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CopyComplete
 /home/gzc/Projects/Playground/Playground-Cs/Todo/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll
 /home/gzc/Projects/Playground/Playground-Cs/Todo/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.deps.json
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/bin/Debug/netcoreapp3.1/Domain.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.AssemblyInfoInputs.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.AssemblyInfo.cs
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CoreCompileInputs.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CopyComplete
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb

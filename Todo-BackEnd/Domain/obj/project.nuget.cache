@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0f3LrckMyh45njhvKstaBjWmoeMyJiWHTmOd8D0Ya6lHxJoy6VJqxR6mMZgCY0MRID6SheTdPFJfa5kCPiLwfg==",
+  "dgSpecHash": "pQyRnBQjiVOMVW88cDRRqEarsWntPn0lIaktQI4hn5A01N4yL1/NRFMtgip3lpdzsqellOtQ7mgwx7gjJLR4pA==",
   "success": true,
-  "projectFilePath": "/home/gzc/Projects/Playground/Playground-Cs/Todo/Domain/Domain.csproj",
+  "projectFilePath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

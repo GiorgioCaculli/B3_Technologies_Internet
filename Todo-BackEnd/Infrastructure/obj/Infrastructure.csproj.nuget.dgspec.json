@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/gzc/Projects/Playground/Playground-Cs/Todo/Infrastructure/Infrastructure.csproj": {}
+    "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/gzc/Projects/Playground/Playground-Cs/Todo/Domain/Domain.csproj": {
+    "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gzc/Projects/Playground/Playground-Cs/Todo/Domain/Domain.csproj",
+        "projectUniqueName": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/gzc/Projects/Playground/Playground-Cs/Todo/Domain/Domain.csproj",
+        "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj",
         "packagesPath": "/home/gzc/.nuget/packages/",
-        "outputPath": "/home/gzc/Projects/Playground/Playground-Cs/Todo/Domain/obj/",
+        "outputPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gzc/.nuget/NuGet/NuGet.Config"
@@ -54,14 +54,14 @@
         }
       }
     },
-    "/home/gzc/Projects/Playground/Playground-Cs/Todo/Infrastructure/Infrastructure.csproj": {
+    "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gzc/Projects/Playground/Playground-Cs/Todo/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/gzc/Projects/Playground/Playground-Cs/Todo/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/gzc/.nuget/packages/",
-        "outputPath": "/home/gzc/Projects/Playground/Playground-Cs/Todo/Infrastructure/obj/",
+        "outputPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gzc/.nuget/NuGet/NuGet.Config"
@@ -75,8 +75,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/gzc/Projects/Playground/Playground-Cs/Todo/Domain/Domain.csproj": {
-                "projectPath": "/home/gzc/Projects/Playground/Playground-Cs/Todo/Domain/Domain.csproj"
+              "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj": {
+                "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj"
               }
             }
           }

@@ -32,7 +32,10 @@ namespace WebAPI
             {
                 options.AddPolicy(MyOrigins, builder =>
                 {
-                    builder.WithOrigins("http://localhost:4200")
+                    /*builder.WithOrigins("http://localhost:4200")
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();*/
+                    builder.AllowAnyOrigin()
                         .AllowAnyMethod()
                         .AllowAnyHeader();
                 });
@@ -48,8 +51,10 @@ namespace WebAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.UseHttpsRedirection();
+            else
+            { 
+                app.UseHttpsRedirection();
+            }
 
             app.UseCors(MyOrigins);
 

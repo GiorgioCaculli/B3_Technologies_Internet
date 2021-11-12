@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/gzc/Projects/Playground/Playground-Cs/Todo/Domain/Domain.csproj": {}
+    "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj": {}
   },
   "projects": {
-    "/home/gzc/Projects/Playground/Playground-Cs/Todo/Domain/Domain.csproj": {
+    "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gzc/Projects/Playground/Playground-Cs/Todo/Domain/Domain.csproj",
+        "projectUniqueName": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/gzc/Projects/Playground/Playground-Cs/Todo/Domain/Domain.csproj",
+        "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj",
         "packagesPath": "/home/gzc/.nuget/packages/",
-        "outputPath": "/home/gzc/Projects/Playground/Playground-Cs/Todo/Domain/obj/",
+        "outputPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gzc/.nuget/NuGet/NuGet.Config"
