@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj",
+      "projectUniqueName": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj",
+      "projectPath": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj",
       "packagesPath": "/home/gzc/.nuget/packages/",
-      "outputPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/obj/",
+      "outputPath": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gzc/.nuget/NuGet/NuGet.Config"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/gzc/dotnet/sdk/3.1.414/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/gzc/dotnet/sdk/3.1.415/RuntimeIdentifierGraph.json"
       }
     }
   }

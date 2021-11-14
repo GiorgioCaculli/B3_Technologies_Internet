@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pQyRnBQjiVOMVW88cDRRqEarsWntPn0lIaktQI4hn5A01N4yL1/NRFMtgip3lpdzsqellOtQ7mgwx7gjJLR4pA==",
+  "dgSpecHash": "Rk8BNdmvtiTVV2ITHbict/zVIuaHl/H7iaBulbhAMIP9Hlm7M9YrfNsWsLPvk2gIxdwhFJXwbVTIUQcw7/J4rg==",
   "success": true,
-  "projectFilePath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj",
+  "projectFilePath": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

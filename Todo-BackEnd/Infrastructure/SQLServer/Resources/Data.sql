@@ -1,0 +1,1 @@
+INSERT INTO todo_values (title, is_done) VALUES ( "Todo 1", 0 );

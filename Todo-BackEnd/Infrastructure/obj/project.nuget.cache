@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lDyET0yBAcOytn7O4Koy+dc0pxB3V1crBVZVfC+NKuwHggcd50TYUQdkJ1soSKv2eSsIQ4XSRMuUWbyfyIqKlA==",
+  "dgSpecHash": "F7uncAX5Z8Vb7XuryWiErJxCE7hBWoHW/SzbLw6nYXCApF84jeQxC5yGAnqAlTu1aObW4clV2d/UQ2zwwol/fA==",
   "success": true,
-  "projectFilePath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/gzc/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/home/gzc/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
