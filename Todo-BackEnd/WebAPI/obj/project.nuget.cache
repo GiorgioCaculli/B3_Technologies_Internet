@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QH8mrNa9GXePaT4urUhyXl2cZZj3lOtk75B/hYyUZjgwY4n5GrrZO5zcqhjxLF1ikCcjS3vvXnRAolRY+UGe9A==",
+  "dgSpecHash": "GecyYv+UbzsLm9ASttBwlMxjqsxD117OYTjI7TFZJSvXuiVkSLVXp504Yxlj8Ipxa77cKFEECKStyYZb40s4VA==",
   "success": true,
-  "projectFilePath": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/WebAPI/WebAPI.csproj",
+  "projectFilePath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
     "/home/gzc/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/home/gzc/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",

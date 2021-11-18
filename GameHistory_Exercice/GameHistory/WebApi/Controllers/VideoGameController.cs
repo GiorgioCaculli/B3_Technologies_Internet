@@ -19,6 +19,7 @@ namespace WebApi.Controllers
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public ActionResult<OutputDtoVideoGame> Create(InputDtoVideoGame dto)
         {
             return StatusCode(201, _useCaseCreateVideoGame.Execute(dto));

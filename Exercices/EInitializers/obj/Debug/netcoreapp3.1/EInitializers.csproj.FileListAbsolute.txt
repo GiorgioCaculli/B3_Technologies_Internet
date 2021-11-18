@@ -1,0 +1,13 @@
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/bin/Debug/netcoreapp3.1/EInitializers
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/bin/Debug/netcoreapp3.1/EInitializers.deps.json
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/bin/Debug/netcoreapp3.1/EInitializers.runtimeconfig.json
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/bin/Debug/netcoreapp3.1/EInitializers.runtimeconfig.dev.json
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/bin/Debug/netcoreapp3.1/EInitializers.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/bin/Debug/netcoreapp3.1/EInitializers.pdb
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/obj/Debug/netcoreapp3.1/EInitializers.csprojAssemblyReference.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/obj/Debug/netcoreapp3.1/EInitializers.AssemblyInfoInputs.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/obj/Debug/netcoreapp3.1/EInitializers.AssemblyInfo.cs
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/obj/Debug/netcoreapp3.1/EInitializers.csproj.CoreCompileInputs.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/obj/Debug/netcoreapp3.1/EInitializers.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/obj/Debug/netcoreapp3.1/EInitializers.pdb
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInitializers/obj/Debug/netcoreapp3.1/EInitializers.genruntimeconfig.cache

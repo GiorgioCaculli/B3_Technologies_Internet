@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj",
+      "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj",
       "packagesPath": "/home/gzc/.nuget/packages/",
-      "outputPath": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/obj/",
+      "outputPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gzc/.nuget/NuGet/NuGet.Config"
@@ -493,8 +493,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj": {
-              "projectPath": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj"
+            "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj": {
+              "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj"
             }
           }
         }
@@ -528,7 +528,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/gzc/dotnet/sdk/3.1.415/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/gzc/dotnet/sdk/3.1.414/RuntimeIdentifierGraph.json"
       }
     }
   }

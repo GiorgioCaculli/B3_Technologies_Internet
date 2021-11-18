@@ -96,3 +96,8 @@
 /mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.dll
 /mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.pdb
 /mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.genruntimeconfig.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/WebAPI/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/WebAPI/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/WebAPI/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.MvcApplicationPartsAssemblyInfo.cs

@@ -631,11 +631,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/WebAPI/WebAPI.csproj",
+      "projectUniqueName": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/WebAPI/WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/WebAPI/WebAPI.csproj",
+      "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/WebAPI/WebAPI.csproj",
       "packagesPath": "/home/gzc/.nuget/packages/",
-      "outputPath": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/WebAPI/obj/",
+      "outputPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gzc/.nuget/NuGet/NuGet.Config"
@@ -649,11 +649,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj": {
-              "projectPath": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj"
+            "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj": {
+              "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Domain/Domain.csproj"
             },
-            "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/mnt/sd1/Projects/UNI/BAC_3/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj"
+            "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/Todo-BackEnd/Infrastructure/Infrastructure.csproj"
             }
           }
         }
@@ -698,7 +698,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/gzc/dotnet/sdk/3.1.415/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/gzc/dotnet/sdk/3.1.414/RuntimeIdentifierGraph.json"
       }
     }
   }
