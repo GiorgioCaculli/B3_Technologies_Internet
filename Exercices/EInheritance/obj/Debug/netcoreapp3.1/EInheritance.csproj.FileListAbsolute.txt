@@ -1,0 +1,13 @@
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/bin/Debug/netcoreapp3.1/EInheritance
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/bin/Debug/netcoreapp3.1/EInheritance.deps.json
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/bin/Debug/netcoreapp3.1/EInheritance.runtimeconfig.json
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/bin/Debug/netcoreapp3.1/EInheritance.runtimeconfig.dev.json
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/bin/Debug/netcoreapp3.1/EInheritance.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/bin/Debug/netcoreapp3.1/EInheritance.pdb
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/obj/Debug/netcoreapp3.1/EInheritance.csprojAssemblyReference.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/obj/Debug/netcoreapp3.1/EInheritance.AssemblyInfoInputs.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/obj/Debug/netcoreapp3.1/EInheritance.AssemblyInfo.cs
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/obj/Debug/netcoreapp3.1/EInheritance.csproj.CoreCompileInputs.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/obj/Debug/netcoreapp3.1/EInheritance.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/obj/Debug/netcoreapp3.1/EInheritance.pdb
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EInheritance/obj/Debug/netcoreapp3.1/EInheritance.genruntimeconfig.cache

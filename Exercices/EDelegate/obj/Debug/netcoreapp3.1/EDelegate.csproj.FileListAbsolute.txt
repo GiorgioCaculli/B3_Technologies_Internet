@@ -1,0 +1,13 @@
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/bin/Debug/netcoreapp3.1/EDelegate
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/bin/Debug/netcoreapp3.1/EDelegate.deps.json
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/bin/Debug/netcoreapp3.1/EDelegate.runtimeconfig.json
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/bin/Debug/netcoreapp3.1/EDelegate.runtimeconfig.dev.json
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/bin/Debug/netcoreapp3.1/EDelegate.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/bin/Debug/netcoreapp3.1/EDelegate.pdb
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/obj/Debug/netcoreapp3.1/EDelegate.csprojAssemblyReference.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/obj/Debug/netcoreapp3.1/EDelegate.AssemblyInfoInputs.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/obj/Debug/netcoreapp3.1/EDelegate.AssemblyInfo.cs
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/obj/Debug/netcoreapp3.1/EDelegate.csproj.CoreCompileInputs.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/obj/Debug/netcoreapp3.1/EDelegate.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/obj/Debug/netcoreapp3.1/EDelegate.pdb
+/home/gzc/Projects/UNI/B3_Technologies_Internet/Exercices/EDelegate/obj/Debug/netcoreapp3.1/EDelegate.genruntimeconfig.cache
