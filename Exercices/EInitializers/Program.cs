@@ -9,7 +9,7 @@ namespace EInitializers
         {
             Console.WriteLine("EInitializers");
 
-            Town townMons = new Town
+            var townMons = new Town
             {
                 Name = "Mons",
                 Houses = new List<House>()

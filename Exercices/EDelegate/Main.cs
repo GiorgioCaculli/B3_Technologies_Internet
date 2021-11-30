@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using EDelegate.Exercise4;
 
 namespace EDelegate
 {
@@ -8,15 +9,17 @@ namespace EDelegate
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Exercice 1");
-            Exercice1();
-            Console.WriteLine("Exercice 2");
-            Exercice2();
-            Console.WriteLine("Exercice 3");
-            Exercice3();
+            Console.WriteLine("Exercise 1");
+            Exercise1();
+            Console.WriteLine("Exercise 2");
+            Exercise2();
+            Console.WriteLine("Exercise 3");
+            Exercise3();
+            Console.WriteLine("Exercise 4");
+            Exercise4();
         }
 
-        public static void Exercice1()
+        public static void Exercise1()
         {
             ProcessString ps = DeleteUpper;
             Console.WriteLine(ps("DeLeTe UpPeRcAsE LeTtErS"));
@@ -24,9 +27,9 @@ namespace EDelegate
             Console.WriteLine(ps("DeLeTe LoWeRcAsE LeTtErS"));
         }
 
-        public delegate string ProcessString(string str);
+        private delegate string ProcessString(string str);
 
-        public static string DeleteUpper(string str)
+        private static string DeleteUpper(string str)
         {
             Console.WriteLine("Original String: " + str);
             string newString = "";
@@ -43,7 +46,7 @@ namespace EDelegate
             return str;
         }
 
-        public static string DeleteLower(string str)
+        private static string DeleteLower(string str)
         {
             Console.WriteLine("Original String: " + str);
             string newString = "";
@@ -60,7 +63,7 @@ namespace EDelegate
             return str;
         }
 
-        public static void Exercice2()
+        private static void Exercise2()
         {
             string originalString = "Bonjour tout le monde";
             string searchedString = "tout";
@@ -70,9 +73,9 @@ namespace EDelegate
             Console.WriteLine(CountWordsFromString("Bonjour tout le monde", word=>word.Equals("tout")));
         }
 
-        public delegate bool WordInString(string str);
+        private delegate bool WordInString(string str);
 
-        public static int CountWordsFromString(string str, WordInString wordInString)
+        private static int CountWordsFromString(string str, WordInString wordInString)
         {
             int count = 0;
             foreach (string word in str.Split())
@@ -85,15 +88,35 @@ namespace EDelegate
             return count;
         }
 
-        public static void Exercice3()
+        private static void Exercise3()
         {
-            Func<int, int, int > mult = delegate(int a, int b) { return a * b; };
-            Console.WriteLine(mult(3, 6));
+            Func<int, int, int > multiply = (a, b) => a * b;
+            Console.WriteLine(multiply(3, 6));
             Action<string, string> concat = delegate(string a, string b) { Console.WriteLine(a + " : " + b); };
             concat("String 1", "String 2");
             Predicate<int> pair = delegate(int i) { return i % 2 == 0; };
             Console.WriteLine(pair(2));
             Console.WriteLine(pair(1));
+        }
+
+        public static void Exercise4()
+        {
+            Radio radio = new Radio()
+            {
+                Name = "La Zanzara"
+            };
+            Driver driver1 = new Driver()
+            {
+                Name = "Giorgio"
+            };
+            Driver driver2 = new Driver()
+            {
+                Name = "Tanguy"
+            };
+            Driver driver3 = new Driver()
+            {
+                Name = "Guillaume"
+            };
         }
     }
 }
