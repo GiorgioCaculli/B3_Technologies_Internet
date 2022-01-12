@@ -1,0 +1,26 @@
+<mat-toolbar color="primary">
+  <span>
+      <a routerLink="home" routerLinkActive="active">
+        <button aria-label="Home" color="accent" mat-icon-button>
+          <fa-icon [icon]="faHomeSolid"></fa-icon>
+        </button>
+      </a>
+    Caculli - Examen TI Janvier 2022
+  </span>
+  <span>
+      <a routerLink="personnes" routerLinkActive="active">
+        <button aria-label="Personnes" color="accent" mat-icon-button>
+          <fa-icon [icon]="faUserSolid"></fa-icon>
+        </button>
+      </a>
+  </span>
+  <span>
+      <a routerLink="parcours" routerLinkActive="active">
+        <button aria-label="Parcours" color="accent" mat-icon-button>
+          <fa-icon [icon]="faMapSolid"></fa-icon>
+        </button>
+      </a>
+  </span>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,259 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/WebAPI/WebAPI.csproj": {}
+  },
+  "projects": {
+    "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/Application.csproj",
+        "packagesPath": "/home/gzc/.nuget/packages/",
+        "outputPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gzc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Domain/Domain.csproj": {
+                "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Domain/Domain.csproj"
+              },
+              "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Infrastructure/Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gzc/dotnet/sdk/3.1.414/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Domain/Domain.csproj",
+        "packagesPath": "/home/gzc/.nuget/packages/",
+        "outputPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gzc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gzc/dotnet/sdk/3.1.414/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/gzc/.nuget/packages/",
+        "outputPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gzc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Domain/Domain.csproj": {
+                "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gzc/dotnet/sdk/3.1.414/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/WebAPI/WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/WebAPI/WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/WebAPI/WebAPI.csproj",
+        "packagesPath": "/home/gzc/.nuget/packages/",
+        "outputPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/WebAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gzc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/Application.csproj": {
+                "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/Application.csproj"
+              },
+              "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Infrastructure/Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gzc/dotnet/sdk/3.1.414/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

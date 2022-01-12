@@ -1,0 +1,26 @@
+<div *ngIf="parcours.length === 0">
+  <b>Merci de creer un parcours pour voir le tableau!</b>
+</div>
+<div *ngIf="parcours.length > 0">
+  <table mat-table [dataSource]="parcours">
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef>ID</th>
+      <td mat-cell *matCellDef="let parcours"> {{ parcours.identifiant }} </td>
+    </ng-container>
+    <ng-container matColumnDef="nom">
+      <th mat-header-cell *matHeaderCellDef>Nom</th>
+      <td mat-cell *matCellDef="let parcours"> {{ parcours.nom }} </td>
+    </ng-container>
+    <ng-container matColumnDef="temps-marche-minutes">
+      <th mat-header-cell *matHeaderCellDef>Temps Marche (minutes)</th>
+      <td mat-cell *matCellDef="let parcours"> {{ parcours.tempsMarcheMinutes }} </td>
+    </ng-container>
+    <ng-container matColumnDef="temps-course-minutes">
+      <th mat-header-cell *matHeaderCellDef>Temps Course (minutes)</th>
+      <td mat-cell *matCellDef="let parcours"> {{ parcours.tempsCourseMinutes }} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>

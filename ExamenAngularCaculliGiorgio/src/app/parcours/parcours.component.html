@@ -1,0 +1,20 @@
+<div>
+  <mat-card>
+    <mat-card class="inline-block">
+      <mat-card-title>Parcours</mat-card-title>
+      <mat-card-subtitle>Liste des parcours</mat-card-subtitle>
+      <mat-card-content>
+        <app-parcours-form (parcoursCreated)="sendParcours($event)"></app-parcours-form>
+        <app-parcours-list [parcours]="parcours"></app-parcours-list>
+      </mat-card-content>
+    </mat-card>
+    <mat-card class="inline-block">
+      <mat-card-title>Sessions</mat-card-title>
+      <mat-card-subtitle>Liste des sessions</mat-card-subtitle>
+      <mat-card-content>
+        <app-sessions-form [utilisateurs]="personnes" [parcours]="parcours" (sessionCreated)="sendSession($event)"></app-sessions-form>
+        <app-sessions-list [sessions]="sessions"></app-sessions-list>
+      </mat-card-content>
+    </mat-card>
+  </mat-card>
+</div>

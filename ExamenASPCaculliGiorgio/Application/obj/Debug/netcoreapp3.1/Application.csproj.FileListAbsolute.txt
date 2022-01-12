@@ -1,0 +1,14 @@
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/bin/Debug/netcoreapp3.1/Application.deps.json
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/bin/Debug/netcoreapp3.1/Application.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/bin/Debug/netcoreapp3.1/Application.pdb
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/bin/Debug/netcoreapp3.1/Domain.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/bin/Debug/netcoreapp3.1/Infrastructure.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/bin/Debug/netcoreapp3.1/Infrastructure.pdb
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/obj/Debug/netcoreapp3.1/Application.csprojAssemblyReference.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfoInputs.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/obj/Debug/netcoreapp3.1/Application.AssemblyInfo.cs
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/obj/Debug/netcoreapp3.1/Application.csproj.CoreCompileInputs.cache
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/obj/Debug/netcoreapp3.1/Application.csproj.CopyComplete
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/obj/Debug/netcoreapp3.1/Application.dll
+/home/gzc/Projects/UNI/B3_Technologies_Internet/ExamenASPCaculliGiorgio/Application/obj/Debug/netcoreapp3.1/Application.pdb
